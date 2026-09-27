@@ -2,6 +2,8 @@
 
 [Türkçe](#türkçe) · [English](#english) · [Español](#español) · [Deutsch](#deutsch) · [Français](#français)
 
+TDK sözlük servisleriyle çalışan, kendi sunucunuzda barındırabileceğiniz Türkçe sözlük arayüzü. Uygulama Node.js ile çalışır; ön yüz için derleme adımı gerekmez.
+
 ---
 
 ## Türkçe
@@ -86,7 +88,7 @@ TDK veya ses servisine erişilemiyorsa canlı arama ya da seslendirme geçici ol
 
 ### Lisans ve içerik
 
-Depoda `LICENSE` dosyası yoksa kaynak kod için belirli bir açık kaynak lisansı varsaymayın. TDK sözlük içerikleri, `autocomplete.json` verileri ve harici ses servisleri bu projenin kaynak kodundan ayrı hak ve koşullara tabi olabilir.
+Projenin kaynak kodu için kök dizindeki [`LICENSE`](LICENSE) dosyasına bakın. Bu lisans, TDK'nin sözlük içeriklerine, `autocomplete.json` içindeki TDK kaynaklı verilere veya harici ses servislerine otomatik olarak uygulanmaz; bu materyaller ayrı hak ve kullanım koşullarına tabi olabilir.
 
 ---
 
@@ -172,7 +174,7 @@ Live search or audio may be temporarily unavailable if TDK or the speech provide
 
 ### License and content
 
-If this repository has no `LICENSE` file, do not assume a particular open-source license applies to the source code. TDK dictionary content, `autocomplete.json` data, and external audio services may be subject to terms and rights separate from this project's source code.
+See the root [`LICENSE`](LICENSE) file for the license covering this project's source code. It does not automatically apply to TDK dictionary content, TDK-derived data in `autocomplete.json`, or external audio services; those materials may have separate rights and terms.
 
 ---
 
@@ -258,7 +260,7 @@ La búsqueda o el audio pueden no estar disponibles temporalmente si TDK o el pr
 
 ### Licencia y contenido
 
-Si el repositorio no contiene un archivo `LICENSE`, no se debe asumir una licencia concreta para el código fuente. Los contenidos del diccionario de TDK, los datos de `autocomplete.json` y los servicios de audio externos pueden estar sujetos a derechos y condiciones independientes.
+Consulta el archivo [`LICENSE`](LICENSE) de la raíz para conocer la licencia del código fuente del proyecto. Esta no se aplica automáticamente al contenido del diccionario de TDK, a los datos derivados de TDK en `autocomplete.json` ni a los servicios de audio externos, que pueden tener derechos y condiciones propios.
 
 ---
 
@@ -344,7 +346,7 @@ Live-Suche oder Audio können vorübergehend ausfallen, wenn TDK oder der Sprach
 
 ### Lizenz und Inhalte
 
-Enthält das Repository keine `LICENSE`-Datei, sollte keine bestimmte Open-Source-Lizenz für den Quellcode angenommen werden. TDK-Wörterbuchinhalte, Daten in `autocomplete.json` und externe Audiodienste können eigenen Rechten und Bedingungen unterliegen.
+Die Lizenz des Quellcodes steht in der Datei [`LICENSE`](LICENSE) im Stammverzeichnis. Sie gilt nicht automatisch für TDK-Wörterbuchinhalte, von TDK stammende Daten in `autocomplete.json` oder externe Audiodienste; dafür können eigene Rechte und Bedingungen gelten.
 
 ---
 
@@ -430,4 +432,4 @@ La recherche ou l’audio peuvent être temporairement indisponibles si le TDK o
 
 ### Licence et contenu
 
-Si le dépôt ne contient pas de fichier `LICENSE`, ne supposez pas qu’une licence open source particulière s’applique au code source. Les contenus du dictionnaire du TDK, les données de `autocomplete.json` et les services audio tiers peuvent être soumis à des droits et conditions distincts.
+Consultez le fichier [`LICENSE`](LICENSE) à la racine pour connaître la licence du code source du projet. Elle ne s’applique pas automatiquement au contenu du dictionnaire du TDK, aux données issues du TDK dans `autocomplete.json` ni aux services audio externes, qui peuvent relever de droits et conditions distincts.
